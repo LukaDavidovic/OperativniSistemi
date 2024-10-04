@@ -1,3 +1,11 @@
+/*
+Napisati funkciju void osMkPublicDir(const char *dname);
+koja pravi direktorijum 'dname' sa pravima pristupa 0777.
+Testirati ovu funkciju pozivom iz main-a. Kao argument komandne linije 
+program prima ime direktorijuma koji treba napraviti i poziva osMkPublicDir funkciju. 
+Nema potrebe za bilo kakvim ispisom.
+	
+*/
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
